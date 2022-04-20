@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sonic Responsive Template</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+<!-- 
+
+Sonic Template 
+
+http://www.templatemo.com/tm-394-sonic 
+
+-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1">
+    
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/templatemo_misc.css">
+	<link rel="stylesheet" href="css/templatemo_style.css">
+</head>
+<body>
+	
+	<!-- This one in here is responsive menu for tablet and mobiles -->
+    <div class="responsive-navigation visible-sm visible-xs">
+        <a href="#" class="menu-toggle-btn">
+            <i class="fa fa-bars fa-2x"></i>
+        </a>
+        <div class="navigation responsive-menu">
+            <ul>
+                <li class="home"><a href="#templatemo">Home</a></li>
+	            <li class="about"><a href="#about">About Us</a></li>
+	            <li class="services"><a href="#services">Services</a></li>
+	            <li class="portfolio"><a href="#portfolio">Portfolio</a></li>
+	            <li class="contact"><a href="#contact">Contact</a></li>
+	            <li><a href="https://www.google.com" class="external">Google</a></li>
+            </ul> <!-- /.main_menu -->
+        </div> <!-- /.responsive_menu -->
+    </div> <!-- /responsive_navigation --><!-- /#main-sidebar -->
+
+	<div id="main-content"><!-- /#sTop -->
+
+		<div class="container-fluid">
+
+			<div id="about" class="section-content">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section-title">
+						  <h2>Printer estate</h2>
+                        </div>
+					</div>
+				</div><!-- /.row -->
+				<div class="row our-story">
+					<div class="col-md-8">
+						<h3>printer estate</h3>
+		  	            <p> •	In main location in Bath there are 420 employees that make use of their 50 HP printing devices out of which 20 are A4 mono printers and 30 are color MFP’s (10 devices are A4 and 20 are A3).</p>
+	  	              <p>&nbsp;•	In the Bolton site there are 200 employees using 15 Xerox printing devices (10 mono A4 printers and 5 A3 color copiers).
+		  	              •	In Norwich there are 60 employees using 5 A3 color HP MFP’s and three A4 HP printers.</p>
+	  	              <p>&nbsp;•	Recently acquired Bradford site has 120 employees and approximately 20 printing devices out of which 15 are A4 mono printers and 5 are A3 color copiers of different brands (HP, Lexmark and RICOH). All devices there are older than 5 years. They still have Fax.</p>
+	  	              <p>&nbsp;•	For printing there have implemented a locally installed MPS solutions in their main Bath location as well as branch offices in Bolton and Norwich that sit under different MPS contracts.&nbsp;</p>
+	  	              <p>•	In all sites on within each production line department there is one A3 multifunction color device in use in the production line supervisor office. Printed on those devices are mostly work schedules, work orders, plans and calibration values for production devices. They also scan manual corrections and signed work orders.&nbsp;</p>
+	  	              <p>•	The plan is to centralize the Finance department for all sites in the Bath office, so a solution for invoicing and central processing of incoming invoices would benefit greatly.</p>
+	  	              <p>&nbsp;•	All MPS contracts for all sites will expire this year. </p>
+<a href="index.html" class="largeButton homeBgColor">Home</a>
+						<a href="Inside Information.html" class="largeButton homeBgColor">return</a>
+
+					
+                  </div>
+					<div class="col-md-4">
+						<div class="story-image">
+							<img src="images/team1.jpg" alt="">
+						</div>
+					</div>
+				</div> <!-- /.row -->
+			</div> <!-- /#about --><!-- /#services --><!-- /#portfolio --><!-- /#portfolio --><!-- /.site-footer -->
+
+	</div> <!-- /#main-content -->
+
+	<!-- JavaScripts -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/jquery.singlePageNav.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<script src="js/custom.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("a[data-gal^='prettyPhoto']").prettyPhoto({hook: 'data-gal'});
+		});
+
+        function initialize() {
+          var mapOptions = {
+            zoom: 13,
+            center: new google.maps.LatLng(40.7809919,-73.9665273)
+          };
+
+          var map = new google.maps.Map(document.getElementById('map-canvas'),
+              mapOptions);
+        }
+
+        function loadScript() {
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
+              'callback=initialize';
+          document.body.appendChild(script);
+        }
+
+        window.onload = loadScript;
+    </script>
+<!-- templatemo 394 sonic -->
+</body>
+</html>

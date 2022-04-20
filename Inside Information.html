@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sonic Responsive Template</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+<!-- 
+
+Sonic Template 
+
+http://www.templatemo.com/tm-394-sonic 
+
+-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1">
+    
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/templatemo_misc.css">
+	<link rel="stylesheet" href="css/templatemo_style.css">
+</head>
+<body>
+	
+	<!-- This one in here is responsive menu for tablet and mobiles -->
+    <div class="responsive-navigation visible-sm visible-xs">
+        <a href="#" class="menu-toggle-btn">
+            <i class="fa fa-bars fa-2x"></i>
+        </a>
+        <div class="navigation responsive-menu">
+            <ul>
+                <li class="home"><a href="#templatemo">Home</a></li>
+	            <li class="about"><a href="#about">About Us</a></li>
+	            <li class="services"><a href="#services">Services</a></li>
+	            <li class="portfolio"><a href="#portfolio">Portfolio</a></li>
+	            <li class="contact"><a href="#contact">Contact</a></li>
+	            <li><a href="https://www.google.com" class="external">Google</a></li>
+            </ul> <!-- /.main_menu -->
+        </div> <!-- /.responsive_menu -->
+    </div> <!-- /responsive_navigation --><!-- /#main-sidebar -->
+
+	<div id="main-content"><!-- /#sTop -->
+
+		<div class="container-fluid">
+
+			<div id="about" class="section-content">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="section-title">
+						  <h2>inside information &amp; The Current Situation</h2>
+                        </div>
+					</div>
+				</div><!-- /.row -->
+				<div class="row our-story">
+					<div class="col-md-8">
+						<h3>Inside information&nbsp;</h3>
+		  	          <p> The current situation Up to now, We have three locations. This year we acquired one additional company in Bradford with approximately 120 employees out of which 80 are working in production and 40 employees are in management and administration.</p>
+		  	          <p>&nbsp;The main location of the company remains in Bath with approximately 420 employees out of which 70 persons are employed in management, administration, marketing, sales and R&amp;D.</p>
+		  	          <p>&nbsp;Next to those there are two more locations, one in Bolton with approximately 200 employees with 40 persons in management and administration and a smaller branch in Norwich specialized for custom made products with approximately 60 employees out of which 43 are working in production and 17 are employed in management, administration and R&amp;D All branch offices use their local providers of IT services.&nbsp;</p>
+		  	          <p>In last two years company has moved toward the Hybrid workspace, especially for R&amp;D and HR departments. A lot of employees from management and administration departments in last 2 years were working from home.&nbsp;</p>
+		  	          <p>To cover the needs of remote workers and the home office workers during the pandemic they integrated MS Office 365 We started using Teams for meetings with great success. Due to this success, we have merged the majority of our support business to Microsoft Azure. We are seriously concerned about security beyond the usual level.&nbsp;</p>
+		  	          <p>This is due to our exposure to industrial espionage and theft of intellectual property. Therefore, we are interested in any solution that would increase our security. W are looking for a solution to handle sensitive electronic documents between sites for documents such as: invoices, plans, designs and HR documents. We are also in need of a more reliable central solution for printer/PC management. We have a typical MPS office use model, (see printer estate).&nbsp;</p>
+			  	        <p>But we are looking for lessons learned from covid to what we can digitalize. We really feel that it was unfair that they had to pay for MPS devices even though they not really been used during the 2 years of the pandemic. </p>
+						<a href="index.html" class="largeButton homeBgColor">Home</a>
+						<a href="Printer.html" class="largeButton homeBgColor">Printer Estate</a>
+						<a href="PC.html" class="largeButton homeBgColor">PC Estate</a>
+					
+                  </div>
+					<div class="col-md-4">
+						<div class="story-image">
+							<img src="images/team1.jpg" alt="">
+						</div>
+					</div>
+				</div> <!-- /.row -->
+			</div> <!-- /#about --><!-- /#services --><!-- /#portfolio --><!-- /#portfolio --><!-- /.site-footer -->
+
+	</div> <!-- /#main-content -->
+
+	<!-- JavaScripts -->
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/jquery.singlePageNav.js"></script>
+	<script src="js/jquery.flexslider.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<script src="js/custom.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("a[data-gal^='prettyPhoto']").prettyPhoto({hook: 'data-gal'});
+		});
+
+        function initialize() {
+          var mapOptions = {
+            zoom: 13,
+            center: new google.maps.LatLng(40.7809919,-73.9665273)
+          };
+
+          var map = new google.maps.Map(document.getElementById('map-canvas'),
+              mapOptions);
+        }
+
+        function loadScript() {
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = 'https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&' +
+              'callback=initialize';
+          document.body.appendChild(script);
+        }
+
+        window.onload = loadScript;
+    </script>
+<!-- templatemo 394 sonic -->
+</body>
+</html>
