@@ -52,7 +52,7 @@ a.largeButton.portfolioBgColor { border-color: #169f60; }
 
 a.largeButton.contactBgColor { border-color: #9f164d; }
 
-#main-sidebar { float: left; width: 23%; height: 100%; position: fixed; background-color: #495054; color: white; }
+#main-sidebar { float: left; width: 15%; height: 100%; position: fixed; background-color: #495054; color: white; }
 
 .logo { margin: 100px 0; background-color: #38a9e3; padding: 25px 40px; }
 .logo a { color: white; }
@@ -153,16 +153,25 @@ a.menu-toggle-btn i { line-height: 60px; }
 
 .portfolio-title a { color: #38e395; font-size: 18px; text-transform: uppercase; }
 
+
 .load-more { width: 100%; text-align: center; }
 
 .map-holder { border: 1px solid #d5dbe0; padding: 6px; background-color: #fafafa; }
 .google-map-canvas { height: 400px; }
 
-.contact-form { margin-top: 60px; }
-.contact-form input, .contact-form textarea { width: 100%; display: block; border: 1px solid #d5dbe0; padding: 10px 15px; outline: 0; }
-.contact-form input { height: 46px; margin-bottom: 30px; }
-.contact-form label { font-weight: normal; }
-.contact-form label.required:after { content: "*"; color: red; margin-left: 5px; }
+.progress-bar { background-color: #974dea; text-transform: uppercase; font-size: 12px; }
+
+.contact-thumb { overflow: hidden; position: relative; }
+.contact-thumb img { width: 100%; height: auto; }
+.contact-thumb .overlay-p { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(227, 56, 124, 0.9); visibility: hidden; opacity: 0; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+.contact-thumb .overlay-p a { position: absolute; top: 50%; margin-top: -12px; left: 50%; margin-left: -15px; color: white; }
+
+.contact-item { margin-bottom: 40px; overflow: hidden; }
+.contact-item:hover .overlay-p { visibility: visible; opacity: 1; }
+
+.contact-title { width: 100%; text-align: center; }
+
+.contact-title a { color: #e3387c; font-size: 18px; text-transform: uppercase; }
 
 .submit-btn { margin-top: 30px; }
 
