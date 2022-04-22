@@ -52,7 +52,8 @@ a.largeButton.portfolioBgColor { border-color: #169f60; }
 
 a.largeButton.contactBgColor { border-color: #9f164d; }
 
-#main-sidebar { float: left; width: 15%; height: 100%; position: fixed; background-color: #495054; color: white; }
+#main-sidebar { float: left; width: 23%; height: 100%; position: fixed; background-color: #495054; color: white; overflow-y: auto; }
+
 
 .logo { margin: 100px 0; background-color: #38a9e3; padding: 25px 40px; }
 .logo a { color: white; }
@@ -61,8 +62,9 @@ a.largeButton.contactBgColor { border-color: #9f164d; }
 
 .main-menu { text-align: center; }
 .main-menu li { margin-bottom: 1px; }
-.main-menu li a { color: white; text-transform: uppercase; display: block; border-left: 4px solid; padding: 15px 30px; background-color: #383e41; -webkit-transition: all 150ms ease-in; -moz-transition: all 150ms ease-in; -o-transition: all 150ms ease-in; transition: all 150ms ease-in; }
+.main-menu li a { color: white; text-transform: uppercase; display: block; border-left: 4px solid; padding: 15px 30px; background-color: #383e41; -webkit-transition: all 150ms ease-in; -moz-transition: all 150ms ease-in; -o-transition: all 150ms ease-in; transition: all 150ms ease-in;}
 .main-menu li a:hover { background-color: #34393b; }
+
 
 li.home a { border-color: #38a9e3; }
 li.home a.active { color: #38a9e3; }
